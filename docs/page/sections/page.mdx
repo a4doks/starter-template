@@ -1,0 +1,58 @@
+---
+title: Sections
+description: Structuring your repository for A4Doks navigation
+section-number: 2
+subsection-number: 3
+---
+
+# Organizing Sections in A4Doks
+
+A4Doks provides a seamless integration between your repository's folder structure and the left panel navigation in the documentation. Properly organizing your folders ensures an intuitive and orderly presentation of content. Below, we'll guide you through the process of creating and managing sections using your repository.
+
+## Folder Naming Convention
+
+1. **Case**: All folder names should be in lowercase.
+2. **Spacing**: Instead of spaces, use hyphens (`-`) to separate words in folder names.
+3. **Capitalization**: A4Doks will automatically capitalize and format your folder names appropriately for display in the navigation panel.
+
+For example, a folder named `getting-started` will be displayed as `Getting Started` in the navigation.
+
+## Creating Sections and Subsections
+
+### Main Sections
+
+Each folder you create at the root level of your repository corresponds to a main section in the left panel navigation.
+
+Example:
+
+- Repository Folder: `introduction`
+- Navigation Display: `Introduction`
+
+### Subsections
+
+To create subsections:
+
+1. Create a folder within a main section folder.
+2. Place your `page.mdx` within this subsection folder.
+
+The name of the subsection folder becomes the subsection title in the navigation.
+
+Example:
+
+- Main Section Folder: `introduction`
+  - Subsection Folder: `quick-tips`
+  - Navigation Display: `Introduction` > `Quick Tips`
+
+### Default Section: Home
+
+If you place a `page.mdx` directly within a main section folder (and not inside a subsection folder), it will be categorized under the `Home` section by default in the navigation.
+
+Example:
+
+- Main Section Folder: `introduction`
+  - File: `page.mdx`
+  - Navigation Display: `Home` > `Introduction`
+
+## Recap
+
+By understanding and following these guidelines, you can seamlessly translate your repository's structure into a well-organized documentation navigation. Remember to always follow the naming conventions and the folder structures to achieve the desired outcome in A4Doks.

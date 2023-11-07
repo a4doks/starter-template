@@ -1,0 +1,15 @@
+{
+    "name": "usea4doks",
+    "version": "1.0.0",
+    "description": "sample project",
+    "scripts": {
+        "start": "a4doks start",
+        "clean": "a4doks clean"
+    },
+    "keywords": [],
+    "author": "A4Doks",
+    "license": "AGPL-3.0-or-later",
+    "dependencies": {
+        "@a4doks/a4doks-cli": "^2.0.7"
+    }
+}

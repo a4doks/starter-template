@@ -1,0 +1,49 @@
+---
+title: Navigation and Meta Information
+description: Understanding the structure and organization of A4Doks pages
+section-number: 2
+subsection-number: 2
+---
+
+# Navigation and Meta Information in A4Doks
+
+In A4Doks, the top section of each markdown file plays a crucial role in determining how pages are presented and navigated. It ensures a consistent and organized appearance for all documentation content.
+
+## Explanation of Each Field
+
+### `title`
+
+- **Purpose**: Represents the main title of the page.
+- **Usage**: Helps set the browser tab name (as part of meta tags) and is also used as the main heading on the page.
+- **Example**: If your page is an introduction, the title might be "Welcome".
+
+### `description`
+
+- **Purpose**: Provides a brief summary of the page's content.
+- **Usage**: Helps in setting a description meta tag for SEO purposes. It may also be displayed as a subtitle on some templates.
+- **Example**: For an introductory page, the description could be "Welcome to A4Doks".
+
+### `section-number`
+
+- **Purpose**: Determines the order in which the main sections appear on the left navigation panel.
+- **Usage**: Sections are ordered numerically. If you want a specific page to be the first main section, you would use `section-number: 1`.
+- **Note**: This determines the "parent" ordering.
+
+### `subsection-number`
+
+- **Purpose**: Specifies the order of subsections or child pages within a main section.
+- **Usage**: If you have multiple pages under a main section, this will order them. For the first subsection under a main section, you'd use `subsection-number: 1`.
+- **Note**: This determines the "child" ordering within a given section.
+
+## Example Usage
+
+Consider you're creating an introduction page and you want it to be the first main section with no subsections:
+
+```markdown
+---
+title: Welcome
+description: Welcome to A4Doks
+section-number: 1
+subsection-number: 1
+---
+```
