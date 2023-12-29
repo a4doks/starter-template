@@ -1,5 +1,5 @@
 {
-    "name": "usea4doks",
+    "name": "a4doks-starter-project",
     "version": "1.0.0",
     "description": "sample project",
     "scripts": {
@@ -10,6 +10,6 @@
     "author": "A4Doks",
     "license": "AGPL-3.0-or-later",
     "dependencies": {
-        "@a4doks/a4doks-cli": "^2.0.7"
+        "a4doks": "file:../a4dokscli/a4doks-a4doks-cli-2.0.7.tgz"
     }
 }
