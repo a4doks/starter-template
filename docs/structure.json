@@ -7,46 +7,18 @@
           "title": "Welcome",
           "description": "Welcome to A4Doks",
           "previous": null,
-          "next": "/docs/styling"
-        },
-        {
-          "name": "styling",
-          "title": "Components Showcase",
-          "description": "Showcase of all the components",
-          "previous": "/docs/welcome",
-          "next": "/docs/page/branding"
+          "next": "/docs/sample-section/sample"
         }
       ]
     },
     {
-      "parent": "page",
+      "parent": "sample-section",
       "children": [
         {
-          "name": "branding",
-          "title": "Branding",
-          "description": "Understanding the branding using brand.json.",
-          "previous": "/docs/styling",
-          "next": "/docs/page/navigation"
-        },
-        {
-          "name": "navigation",
-          "title": "Navigation and Meta Information",
-          "description": "Understanding the structure and organization of A4Doks pages",
-          "previous": "/docs/page/branding",
-          "next": "/docs/page/sections"
-        },
-        {
-          "name": "sections",
-          "title": "Sections",
-          "description": "Structuring your repository for A4Doks navigation",
-          "previous": "/docs/page/navigation",
-          "next": "/docs/page/structure"
-        },
-        {
-          "name": "structure",
-          "title": "Page Structure",
-          "description": "Understanding the layout of A4Doks pages",
-          "previous": "/docs/page/sections",
+          "name": "sample",
+          "title": "Sample",
+          "description": "Sample page",
+          "previous": "/docs/welcome",
           "next": null
         }
       ]
